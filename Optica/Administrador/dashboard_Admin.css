@@ -1,0 +1,103 @@
+/* 1) Fondo: a pantalla completa, sin bandas, focalizado en el centro del logo */
+body{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  min-height:100dvh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;          /* centra horizontal */
+  justify-content:center;      /* centra vertical */
+  color:#fff;
+
+  /* Fondo con imagen + viñeta para mejor contraste */
+  background:
+    radial-gradient(ellipse at center,
+      rgba(0,0,0,0.15) 0%,
+      rgba(0,0,0,0.55) 100%),
+    url('imgadmin.jpeg') no-repeat fixed;
+  background-size: cover;          /* ← llena la pantalla, sin bandas */
+  background-position: center 42%; /* ← mueve el “ojo” al centro visual */
+}
+
+/* (opcional) ajusta el foco en pantallas muy altas */
+@media (max-aspect-ratio: 3/4){
+  body{ background-position: center 35%; }
+}
+
+/* 2) Título centrado y legible */
+h1{
+  margin:0 16px 32px;
+  text-align:center;
+  font-size: clamp(24px, 3vw, 36px);
+  font-weight:700;
+  color:#eef3ff;
+  text-shadow: 0 3px 12px rgba(0,0,0,.6);
+}
+
+/* 3) Grid de botones centrado */
+.admin-panel{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+/* 4) Botón Cerrar sesión fijo arriba a la derecha */
+.logout-btn{
+  position:fixed;
+  top:20px;
+  right:32px;
+  background:linear-gradient(90deg,#dc2626,#b91c1c);
+  color:#fff;
+  padding:10px 20px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:600;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+  transition:transform .2s, box-shadow .2s;
+}
+.logout-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 26px rgba(0,0,0,.35);
+}
+
+
+/* Título centrado */
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 3px 8px rgba(6, 5, 5, 0.739);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Contenedor de los botones */
+.admin-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.admin-panel .btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 18px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    transition: all 0.25s ease;
+}
+
+.admin-panel .btn:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #1e40af, #1d4ed8);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}

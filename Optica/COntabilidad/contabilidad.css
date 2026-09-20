@@ -1,0 +1,554 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes hero-gradient-animation {
+    0% {
+        --c-0: hsla(181, 79%, 51%, 1);
+        --y-0: 96%;
+        --x-0: 11%;
+        --s-start-0: 37%;
+        --s-end-0: 90%;
+        --c-1: hsla(258, 100%, 64%, 1);
+        --x-1: 92%;
+        --s-start-1: 31%;
+        --s-end-1: 84%;
+        --y-1: 89%;
+        --y-2: 7%;
+        --x-2: 58%;
+        --s-start-2: 41%;
+        --s-end-2: 61%;
+        --c-2: hsla(202, 95%, 54%, 1);
+        --x-3: 62%;
+        --c-3: hsla(225, 76%, 52%, 1);
+        --y-3: 35%;
+        --s-start-3: 22%;
+        --s-end-3: 59%;
+        --x-4: 2%;
+        --y-4: 63%;
+        --s-start-4: 19%;
+        --s-end-4: 70%;
+        --c-4: hsla(218, 81%, 92%, 1);
+    }
+
+    100% {
+        --c-0: hsla(299, 78%, 76%, 1);
+        --y-0: 12%;
+        --x-0: 6%;
+        --s-start-0: 29%;
+        --s-end-0: 73%;
+        --c-1: hsla(221, 87%, 56%, 1);
+        --x-1: 61%;
+        --s-start-1: 8%;
+        --s-end-1: 80%;
+        --y-1: 6%;
+        --y-2: 23%;
+        --x-2: 75%;
+        --s-start-2: 29%;
+        --s-end-2: 80%;
+        --c-2: hsla(206, 51%, 96%, 1);
+        --x-3: 76%;
+        --c-3: hsla(204, 76%, 75%, 1);
+        --y-3: 64%;
+        --s-start-3: 2%;
+        --s-end-3: 81%;
+        --x-4: 41%;
+        --y-4: 86%;
+        --s-start-4: 24%;
+        --s-end-4: 81%;
+        --c-4: hsla(301, 89%, 98%, 1);
+    }
+}
+
+@property --c-0 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(181, 79%, 51%, 1)
+}
+
+@property --y-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 96%
+}
+
+@property --x-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 11%
+}
+
+@property --s-start-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 37%
+}
+
+@property --s-end-0 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 90%
+}
+
+@property --c-1 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(258, 100%, 64%, 1)
+}
+
+@property --x-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 92%
+}
+
+@property --s-start-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 31%
+}
+
+@property --s-end-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 84%
+}
+
+@property --y-1 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 89%
+}
+
+@property --y-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 7%
+}
+
+@property --x-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 58%
+}
+
+@property --s-start-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 41%
+}
+
+@property --s-end-2 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 61%
+}
+
+@property --c-2 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(202, 95%, 54%, 1)
+}
+
+@property --x-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 62%
+}
+
+@property --c-3 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(225, 76%, 52%, 1)
+}
+
+@property --y-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 35%
+}
+
+@property --s-start-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 22%
+}
+
+@property --s-end-3 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 59%
+}
+
+@property --x-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 2%
+}
+
+@property --y-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 63%
+}
+
+@property --s-start-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 19%
+}
+
+@property --s-end-4 {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 70%
+}
+
+@property --c-4 {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: hsla(218, 81%, 92%, 1)
+}
+
+body{
+    --c-0: hsla(181, 79%, 51%, 1);
+    --y-0: 96%;
+    --x-0: 11%;
+    --c-1: hsla(258, 100%, 64%, 1);
+    --x-1: 92%;
+    --y-1: 89%;
+    --y-2: 7%;
+    --x-2: 58%;
+    --c-2: hsla(202, 95%, 54%, 1);
+    --x-3: 62%;
+    --c-3: hsla(225, 76%, 52%, 1);
+    --y-3: 35%;
+    --x-4: 2%;
+    --y-4: 63%;
+    --c-4: hsla(218, 81%, 92%, 1);
+    ;
+    background-color: hsla(258, 82%, 70%, 1);
+    background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3)), radial-gradient(circle at var(--x-4) var(--y-4), var(--c-4) var(--s-start-4), transparent var(--s-end-4));
+    animation: hero-gradient-animation 10s linear infinite alternate;
+    background-blend-mode: normal, normal, normal, normal, normal;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #2563EB;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f9fafb;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #2563EB;
+    outline: none;
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+.mensaje {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+/*button */
+
+.btn-volver {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #f1f5f9;
+    color: #2563EB;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #dbeafe;
+}
+
+.layout-contabilidad {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+
+.menu-lateral {
+    width: 240px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.menu-lateral h2 {
+    color: #2563EB;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-lateral .boton-opcion {
+    display: block;
+    margin: 10px 0;
+    background-color: #f1f5f9;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #2563EB;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu-lateral .boton-opcion:hover {
+    background-color: #dbeafe;
+}
+
+.menu-lateral i {
+    margin-right: 8px;
+}
+
+.contenido-panel {
+    flex: 1;
+    margin-left: 40px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+.form-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    max-width: 600px;
+}
+.tabla-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+th {
+    background-color: #f9fafb;
+    color: #2563EB;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+}
+
+.tabla-panel table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px; /* Aumenta tamaño de texto */
+    margin-top: 15px;
+}
+
+.tabla-panel th, .tabla-panel td {
+    padding: 14px 18px; /* Más espacio entre celdas */
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tabla-panel th {
+    background-color: #f1f5f9;
+    color: #2563EB;
+    font-size: 17px;
+}
+
+.tabla-panel tr:hover {
+    background-color: #f0f9ff;
+    cursor: pointer;
+}
+
+.tabla-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    overflow-x: auto;
+}
+.filtro-gastos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.filtro-gastos input[type="text"],
+.filtro-gastos select,
+.filtro-gastos input[type="date"] {
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: white;
+    flex: 1;
+    min-width: 180px;
+}
+
+.filtro-gastos button {
+    background-color: #2563EB;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.filtro-gastos button:hover {
+    background-color: #1d4ed8;
+}
+
+.filtro-gastos .limpiar-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2563EB;
+    padding: 10px 16px;
+}
+.btn-exportar {
+    display: inline-block;
+    background-color: #2563EB;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+.btn-exportar:hover {
+    background-color: #1D4ED8;
+}
+/* --- Estilo especial para el botón Dashboard --- */
+.dashboard-btn {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    box-shadow: 0px 6px 15px rgba(37, 99, 235, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.dashboard-btn i {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 8px;
+    transition: transform 0.3s;
+}
+
+.dashboard-btn strong {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.dashboard-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(30, 58, 138, 0.5);
+}
+
+.dashboard-btn:hover i {
+    transform: rotate(10deg) scale(1.2);
+}
+.resumen-btn {
+    background: linear-gradient(135deg, #16a34a, #065f46);
+    color: white;
+    box-shadow: 0px 6px 15px rgba(22, 163, 74, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.resumen-btn i {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 8px;
+    transition: transform 0.3s;
+}
+
+.resumen-btn strong {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.resumen-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(6, 95, 70, 0.5);
+}
+
+.resumen-btn:hover i {
+    transform: rotate(10deg) scale(1.2);
+}

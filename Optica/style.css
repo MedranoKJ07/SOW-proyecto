@@ -1,0 +1,712 @@
+@keyframes hero-gradient-animation {
+  0% {
+      --c-0: hsla(212, 0%, 0%, 1);
+      --x-0: 93%;
+      --y-0: 93%;
+      --s-start-0: 14.489998991212337%;
+      --s-end-0: 72%;
+      --x-1: 26%;
+      --c-1: hsla(212, 0%, 0%, 1);
+      --y-1: 9%;
+      --s-start-1: 0%;
+      --s-end-1: 45%;
+      --x-2: 15%;
+      --s-start-2: 2.9253667596993065%;
+      --s-end-2: 22.388851682060018%;
+      --c-2: hsla(257.14285714285717, 91%, 27%, 0.35);
+      --y-2: 79%;
+      --x-3: 40%;
+      --y-3: 104%;
+      --c-3: hsla(212.47058823529412, 100%, 50%, 0.5);
+      --s-start-3: 3.985353824694249%;
+      --s-end-3: 47.580278608924694%;
+      --x-4: 0%;
+      --c-4: hsla(224.44444444444443, 72%, 36%, 1);
+      --y-4: 60%;
+      --s-start-4: 2.391200382592061%;
+      --s-end-4: 29.307684556768592%;
+      --s-start-5: 2.9253667596993065%;
+      --s-end-5: 22.388851682060018%;
+      --x-5: 92%;
+      --c-5: hsla(248.30769230769235, 52%, 24%, 1);
+      --y-5: 37%;
+      --y-6: 16%;
+      --s-start-6: 13.173642363290591%;
+      --s-end-6: 31.747336520355095%;
+      --c-6: hsla(212.47058823529412, 100%, 50%, 0.19);
+      --x-6: 101%;
+      --c-7: hsla(227.6470588235294, 98%, 53%, 1);
+      --x-7: 90%;
+      --s-start-7: 1%;
+      --s-end-7: 31%;
+      --y-7: 13%;
+      --c-8: hsla(166.53061224489795, 71%, 60%, 0.32);
+      --x-8: 104%;
+      --s-start-8: 3.985353824694249%;
+      --s-end-8: 13.103042116379756%;
+      --y-8: 56%;
+      --x-9: 97%;
+      --c-9: hsla(219.2079207920792, 83%, 23%, 0.18);
+      --s-start-9: 18.597054544690312%;
+      --s-end-9: 31%;
+      --y-9: 19%;
+  }
+
+  100% {
+      --c-0: hsla(306, 0%, 0%, 1);
+      --x-0: 7%;
+      --y-0: 9%;
+      --s-start-0: 2.391200382592061%;
+      --s-end-0: 43.902064173373226%;
+      --x-1: 96%;
+      --c-1: hsla(306, 0%, 0%, 1);
+      --y-1: 93%;
+      --s-start-1: 9%;
+      --s-end-1: 54.805582404585024%;
+      --x-2: -2%;
+      --s-start-2: 3%;
+      --s-end-2: 26.722813338714598%;
+      --c-2: hsla(166.53061224489795, 72%, 60%, 1);
+      --y-2: 103%;
+      --x-3: 33%;
+      --y-3: 82%;
+      --c-3: hsla(180, 100%, 50%, 0.26);
+      --s-start-3: 2.391200382592061%;
+      --s-end-3: 32.0689540200964%;
+      --x-4: 37%;
+      --c-4: hsla(212.43243243243245, 88%, 26%, 0.58);
+      --y-4: 81%;
+      --s-start-4: 4.40642490323111%;
+      --s-end-4: 37.23528104246256%;
+      --s-start-5: 3%;
+      --s-end-5: 32.537089799783296%;
+      --x-5: 54%;
+      --c-5: hsla(271.9148936170212, 98%, 53%, 0.31);
+      --y-5: 99%;
+      --y-6: 43%;
+      --s-start-6: 6%;
+      --s-end-6: 42.501105312974815%;
+      --c-6: hsla(262.82352941176475, 100%, 50%, 0.15);
+      --x-6: 104%;
+      --c-7: hsla(298.60465116279073, 36%, 23%, 1);
+      --x-7: 104%;
+      --s-start-7: 5%;
+      --s-end-7: 13.10107024898374%;
+      --y-7: -16%;
+      --c-8: hsla(180, 100%, 50%, 0.11);
+      --x-8: 97%;
+      --s-start-8: 2.391200382592061%;
+      --s-end-8: 27.141813016850573%;
+      --y-8: 30%;
+      --x-9: 78%;
+      --c-9: hsla(219.2079207920792, 83%, 23%, 0.59);
+      --s-start-9: 5%;
+      --s-end-9: 21.32164536610654%;
+      --y-9: 4%;
+  }
+}
+
+@property --c-0 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(212, 0%, 0%, 1)
+}
+
+@property --x-0 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 93%
+}
+
+@property --y-0 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 93%
+}
+
+@property --s-start-0 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 14.489998991212337%
+}
+
+@property --s-end-0 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 72%
+}
+
+@property --x-1 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 26%
+}
+
+@property --c-1 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(212, 0%, 0%, 1)
+}
+
+@property --y-1 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 9%
+}
+
+@property --s-start-1 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%
+}
+
+@property --s-end-1 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 45%
+}
+
+@property --x-2 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 15%
+}
+
+@property --s-start-2 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 2.9253667596993065%
+}
+
+@property --s-end-2 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 22.388851682060018%
+}
+
+@property --c-2 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(257.14285714285717, 91%, 27%, 0.35)
+}
+
+@property --y-2 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 79%
+}
+
+@property --x-3 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 40%
+}
+
+@property --y-3 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 104%
+}
+
+@property --c-3 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(212.47058823529412, 100%, 50%, 0.5)
+}
+
+@property --s-start-3 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 3.985353824694249%
+}
+
+@property --s-end-3 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 47.580278608924694%
+}
+
+@property --x-4 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%
+}
+
+@property --c-4 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(224.44444444444443, 72%, 36%, 1)
+}
+
+@property --y-4 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 60%
+}
+
+@property --s-start-4 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 2.391200382592061%
+}
+
+@property --s-end-4 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 29.307684556768592%
+}
+
+@property --s-start-5 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 2.9253667596993065%
+}
+
+@property --s-end-5 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 22.388851682060018%
+}
+
+@property --x-5 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 92%
+}
+
+@property --c-5 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(248.30769230769235, 52%, 24%, 1)
+}
+
+@property --y-5 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 37%
+}
+
+@property --y-6 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 16%
+}
+
+@property --s-start-6 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 13.173642363290591%
+}
+
+@property --s-end-6 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 31.747336520355095%
+}
+
+@property --c-6 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(212.47058823529412, 100%, 50%, 0.19)
+}
+
+@property --x-6 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 101%
+}
+
+@property --c-7 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(227.6470588235294, 98%, 53%, 1)
+}
+
+@property --x-7 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 90%
+}
+
+@property --s-start-7 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 1%
+}
+
+@property --s-end-7 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 31%
+}
+
+@property --y-7 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 13%
+}
+
+@property --c-8 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(166.53061224489795, 71%, 60%, 0.32)
+}
+
+@property --x-8 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 104%
+}
+
+@property --s-start-8 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 3.985353824694249%
+}
+
+@property --s-end-8 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 13.103042116379756%
+}
+
+@property --y-8 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 56%
+}
+
+@property --x-9 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 97%
+}
+
+@property --c-9 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: hsla(219.2079207920792, 83%, 23%, 0.18)
+}
+
+@property --s-start-9 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 18.597054544690312%
+}
+
+@property --s-end-9 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 31%
+}
+
+@property --y-9 {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 19%
+}
+
+.main-container {
+  --c-0: hsla(212, 0%, 0%, 1);
+  --x-0: 93%;
+  --y-0: 93%;
+  --x-1: 26%;
+  --c-1: hsla(212, 0%, 0%, 1);
+  --y-1: 9%;
+  --x-2: 15%;
+  --c-2: hsla(257.14285714285717, 91%, 27%, 0.35);
+  --y-2: 79%;
+  --x-3: 40%;
+  --y-3: 104%;
+  --c-3: hsla(212.47058823529412, 100%, 50%, 0.5);
+  --x-4: 0%;
+  --c-4: hsla(224.44444444444443, 72%, 36%, 1);
+  --y-4: 60%;
+  --x-5: 92%;
+  --c-5: hsla(248.30769230769235, 52%, 24%, 1);
+  --y-5: 37%;
+  --y-6: 16%;
+  --c-6: hsla(212.47058823529412, 100%, 50%, 0.19);
+  --x-6: 101%;
+  --c-7: hsla(227.6470588235294, 98%, 53%, 1);
+  --x-7: 90%;
+  --y-7: 13%;
+  --c-8: hsla(166.53061224489795, 71%, 60%, 0.32);
+  --x-8: 104%;
+  --y-8: 56%;
+  --x-9: 97%;
+  --c-9: hsla(219.2079207920792, 83%, 23%, 0.18);
+  --y-9: 19%;
+  ;
+  background-color: hsla(305, 0%, 0%, 1);
+  background-image: radial-gradient(circle at var(--x-0) var(--y-0), var(--c-0) var(--s-start-0), transparent var(--s-end-0)), radial-gradient(circle at var(--x-1) var(--y-1), var(--c-1) var(--s-start-1), transparent var(--s-end-1)), radial-gradient(circle at var(--x-2) var(--y-2), var(--c-2) var(--s-start-2), transparent var(--s-end-2)), radial-gradient(circle at var(--x-3) var(--y-3), var(--c-3) var(--s-start-3), transparent var(--s-end-3)), radial-gradient(circle at var(--x-4) var(--y-4), var(--c-4) var(--s-start-4), transparent var(--s-end-4)), radial-gradient(circle at var(--x-5) var(--y-5), var(--c-5) var(--s-start-5), transparent var(--s-end-5)), radial-gradient(circle at var(--x-6) var(--y-6), var(--c-6) var(--s-start-6), transparent var(--s-end-6)), radial-gradient(circle at var(--x-7) var(--y-7), var(--c-7) var(--s-start-7), transparent var(--s-end-7)), radial-gradient(circle at var(--x-8) var(--y-8), var(--c-8) var(--s-start-8), transparent var(--s-end-8)), radial-gradient(circle at var(--x-9) var(--y-9), var(--c-9) var(--s-start-9), transparent var(--s-end-9));
+  animation: hero-gradient-animation 10s linear infinite alternate;
+  background-blend-mode: normal, normal, normal, normal, normal, normal, normal, normal, normal, normal;
+}
+.container {
+    max-width: 350px;
+    background: #F8F9FD;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+    margin: 20px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(16, 137, 211);
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form .input {
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+  }
+  
+  .form .input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input::placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input:focus {
+    outline: none;
+    border-inline: 2px solid #12B1D1;
+  }
+  
+  .form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .form .forgot-password a {
+    font-size: 11px;
+    color: #0099ff;
+    text-decoration: none;
+  }
+  
+  .form .login-button {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: linear-gradient(45deg, rgb(16, 137, 211) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form .login-button:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+  }
+  
+  .form .login-button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+  }
+  
+  .social-account-container {
+    margin-top: 25px;
+  }
+  
+  .social-account-container .title {
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(170, 170, 170);
+  }
+  
+  .social-account-container .social-accounts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  .social-account-container .social-accounts .social-button {
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(112, 112, 112) 100%);
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 12px 10px -8px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .social-account-container .social-accounts .social-button .svg {
+    fill: white;
+    margin: auto;
+  }
+  
+  .social-account-container .social-accounts .social-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-account-container .social-accounts .social-button:active {
+    transform: scale(0.9);
+  }
+  
+  .agreement {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .agreement a {
+    text-decoration: none;
+    color: #0099ff;
+    font-size: 9px;
+  }
+  .main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #1564b8; /* Fondo suave */
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #00000000; /* o el color/fondo que tú quieras */
+  }
+  /* From Uiverse.io by Mhyar-nsi */ 
+button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+button{
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  transition: 0.3s;
+}
+
+button.logout:hover {
+  background-color: #f63b3b;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+ .Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  overflow: hidden;
+  transition-duration: .3s;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(36, 36, 36);
+  z-index: 999
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.sign svg path {
+  fill: white;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 40px;
+  transition-duration: .3s;
+  background-color: #031238;
+
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+ 
+
+
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 10px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px ,2px);
+}

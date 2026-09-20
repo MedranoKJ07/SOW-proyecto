@@ -1,0 +1,1162 @@
+Listado de rutas de carpetas para el volumen Windows
+El número de serie del volumen es 0AC5-C7A8
+C:.
+¦   agendar_cita.php
+¦   agendar_cita_nuevo.php
+¦   composer.json
+¦   composer.lock
+¦   conexion.php
+¦   config.php
+¦   crear_factura.php
+¦   dashboard_doctor.css
+¦   diagrama.mwb
+¦   diagrama.mwb.bak
+¦   digrama original optica.mwb
+¦   digrama original optica.mwb.bak
+¦   editar_cita.php
+¦   eliminar_cita.php
+¦   Enviar_citas.php
+¦   estilos_factura.css
+¦   estructura.txt
+¦   imprimir_factura.php
+¦   imprimir_historial.php
+¦   index.php
+¦   insertar_historial.php
+¦   insertar_paciente.php
+¦   login.php
+¦   logout.php
+¦   marcar_atendida.php
+¦   panel_doctor.php
+¦   panel_secretaria.php
+¦   recuperar.php
+¦   restablecer.php
+¦   restableces.css
+¦   style.css
+¦   ver_cita.php
+¦   ver_citas.php
+¦   ver_facturas.php
+¦   ver_historial.php
+¦   
++---Administrador
+¦       dashboard_Admin.css
+¦       panelAdmin.php
+¦       usuarios.php
+¦       
++---Cliente
++---COntabilidad
+¦       contabilidad.css
+¦       detalle_compra.php
+¦       exportar_compras_excel.php
+¦       exportar_gastos_excel.php
+¦       exportar_resumen_excel.php
+¦       guardar_compra.php
+¦       panel_contabilidad.php
+¦       registrar_compra.php
+¦       registrar_gasto.php
+¦       resumen_contable.php
+¦       ver_compras.php
+¦       ver_gastos.php
+¦       
++---imagen
+¦       descarga.png
+¦       logo_WEST.png
+¦       
++---vendor
+    ¦   autoload.php
+    ¦   
+    +---composer
+    ¦   ¦   autoload_classmap.php
+    ¦   ¦   autoload_namespaces.php
+    ¦   ¦   autoload_psr4.php
+    ¦   ¦   autoload_real.php
+    ¦   ¦   autoload_static.php
+    ¦   ¦   ClassLoader.php
+    ¦   ¦   installed.json
+    ¦   ¦   installed.php
+    ¦   ¦   InstalledVersions.php
+    ¦   ¦   LICENSE
+    ¦   ¦   platform_check.php
+    ¦   ¦   
+    ¦   +---pcre
+    ¦       ¦   composer.json
+    ¦       ¦   extension.neon
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           ¦   MatchAllResult.php
+    ¦           ¦   MatchAllStrictGroupsResult.php
+    ¦           ¦   MatchAllWithOffsetsResult.php
+    ¦           ¦   MatchResult.php
+    ¦           ¦   MatchStrictGroupsResult.php
+    ¦           ¦   MatchWithOffsetsResult.php
+    ¦           ¦   PcreException.php
+    ¦           ¦   Preg.php
+    ¦           ¦   Regex.php
+    ¦           ¦   ReplaceResult.php
+    ¦           ¦   UnexpectedNullMatchException.php
+    ¦           ¦   
+    ¦           +---PHPStan
+    ¦                   InvalidRegexPatternRule.php
+    ¦                   PregMatchFlags.php
+    ¦                   PregMatchParameterOutTypeExtension.php
+    ¦                   PregMatchTypeSpecifyingExtension.php
+    ¦                   PregReplaceCallbackClosureTypeExtension.php
+    ¦                   UnsafeStrictGroupsCallRule.php
+    ¦                   
+    +---maennchen
+    ¦   +---zipstream-php
+    ¦       ¦   .editorconfig
+    ¦       ¦   .gitattributes
+    ¦       ¦   .gitignore
+    ¦       ¦   .php-cs-fixer.dist.php
+    ¦       ¦   .tool-versions
+    ¦       ¦   composer.json
+    ¦       ¦   LICENSE
+    ¦       ¦   phpdoc.dist.xml
+    ¦       ¦   phpunit.xml.dist
+    ¦       ¦   psalm.xml
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---.github
+    ¦       ¦   ¦   CODE_OF_CONDUCT.md
+    ¦       ¦   ¦   CONTRIBUTING.md
+    ¦       ¦   ¦   dependabot.yml
+    ¦       ¦   ¦   FUNDING.yml
+    ¦       ¦   ¦   PULL_REQUEST_TEMPLATE.md
+    ¦       ¦   ¦   scorecard.yml
+    ¦       ¦   ¦   SECURITY.md
+    ¦       ¦   ¦   
+    ¦       ¦   +---ISSUE_TEMPLATE
+    ¦       ¦   ¦       BUG.yml
+    ¦       ¦   ¦       FEATURE.yml
+    ¦       ¦   ¦       
+    ¦       ¦   +---PULL_REQUEST_TEMPLATE
+    ¦       ¦   ¦       FAILING_TEST.md
+    ¦       ¦   ¦       FIX.md
+    ¦       ¦   ¦       IMPROVEMENT.md
+    ¦       ¦   ¦       NEW_FEATURE.md
+    ¦       ¦   ¦       
+    ¦       ¦   +---workflows
+    ¦       ¦           branch_main.yml
+    ¦       ¦           part_dependabot.yml
+    ¦       ¦           part_docs.yml
+    ¦       ¦           part_release.yml
+    ¦       ¦           part_test.yml
+    ¦       ¦           pr.yml
+    ¦       ¦           scorecard.yml
+    ¦       ¦           tag-beta.yml
+    ¦       ¦           tag-stable.yml
+    ¦       ¦           
+    ¦       +---.phive
+    ¦       ¦       phars.xml
+    ¦       ¦       
+    ¦       +---.phpdoc
+    ¦       ¦   +---template
+    ¦       ¦           base.html.twig
+    ¦       ¦           
+    ¦       +---guides
+    ¦       ¦       ContentLength.rst
+    ¦       ¦       FlySystem.rst
+    ¦       ¦       index.rst
+    ¦       ¦       Nginx.rst
+    ¦       ¦       Options.rst
+    ¦       ¦       PSR7Streams.rst
+    ¦       ¦       StreamOutput.rst
+    ¦       ¦       Symfony.rst
+    ¦       ¦       Varnish.rst
+    ¦       ¦       
+    ¦       +---src
+    ¦       ¦   ¦   CentralDirectoryFileHeader.php
+    ¦       ¦   ¦   CompressionMethod.php
+    ¦       ¦   ¦   DataDescriptor.php
+    ¦       ¦   ¦   EndOfCentralDirectory.php
+    ¦       ¦   ¦   Exception.php
+    ¦       ¦   ¦   File.php
+    ¦       ¦   ¦   GeneralPurposeBitFlag.php
+    ¦       ¦   ¦   LocalFileHeader.php
+    ¦       ¦   ¦   OperationMode.php
+    ¦       ¦   ¦   PackField.php
+    ¦       ¦   ¦   Time.php
+    ¦       ¦   ¦   Version.php
+    ¦       ¦   ¦   ZipStream.php
+    ¦       ¦   ¦   
+    ¦       ¦   +---Exception
+    ¦       ¦   ¦       DosTimeOverflowException.php
+    ¦       ¦   ¦       FileNotFoundException.php
+    ¦       ¦   ¦       FileNotReadableException.php
+    ¦       ¦   ¦       FileSizeIncorrectException.php
+    ¦       ¦   ¦       OverflowException.php
+    ¦       ¦   ¦       ResourceActionException.php
+    ¦       ¦   ¦       SimulationFileUnknownException.php
+    ¦       ¦   ¦       StreamNotReadableException.php
+    ¦       ¦   ¦       StreamNotSeekableException.php
+    ¦       ¦   ¦       
+    ¦       ¦   +---Zip64
+    ¦       ¦   ¦       DataDescriptor.php
+    ¦       ¦   ¦       EndOfCentralDirectory.php
+    ¦       ¦   ¦       EndOfCentralDirectoryLocator.php
+    ¦       ¦   ¦       ExtendedInformationExtraField.php
+    ¦       ¦   ¦       
+    ¦       ¦   +---Zs
+    ¦       ¦           ExtendedInformationExtraField.php
+    ¦       ¦           
+    ¦       +---test
+    ¦           ¦   Assertions.php
+    ¦           ¦   bootstrap.php
+    ¦           ¦   CentralDirectoryFileHeaderTest.php
+    ¦           ¦   DataDescriptorTest.php
+    ¦           ¦   EndlessCycleStream.php
+    ¦           ¦   EndOfCentralDirectoryTest.php
+    ¦           ¦   FaultInjectionResource.php
+    ¦           ¦   LocalFileHeaderTest.php
+    ¦           ¦   PackFieldTest.php
+    ¦           ¦   ResourceStream.php
+    ¦           ¦   Tempfile.php
+    ¦           ¦   TimeTest.php
+    ¦           ¦   Util.php
+    ¦           ¦   ZipStreamTest.php
+    ¦           ¦   
+    ¦           +---Zip64
+    ¦           ¦       DataDescriptorTest.php
+    ¦           ¦       EndOfCentralDirectoryLocatorTest.php
+    ¦           ¦       EndOfCentralDirectoryTest.php
+    ¦           ¦       ExtendedInformationExtraFieldTest.php
+    ¦           ¦       
+    ¦           +---Zs
+    ¦                   ExtendedInformationExtraFieldTest.php
+    ¦                   
+    +---markbaker
+    ¦   +---complex
+    ¦   ¦   ¦   composer.json
+    ¦   ¦   ¦   license.md
+    ¦   ¦   ¦   README.md
+    ¦   ¦   ¦   
+    ¦   ¦   +---.github
+    ¦   ¦   ¦   +---workflows
+    ¦   ¦   ¦           main.yml
+    ¦   ¦   ¦           
+    ¦   ¦   +---classes
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦           Complex.php
+    ¦   ¦   ¦           Exception.php
+    ¦   ¦   ¦           Functions.php
+    ¦   ¦   ¦           Operations.php
+    ¦   ¦   ¦           
+    ¦   ¦   +---examples
+    ¦   ¦           complexTest.php
+    ¦   ¦           testFunctions.php
+    ¦   ¦           testOperations.php
+    ¦   ¦           
+    ¦   +---matrix
+    ¦       ¦   buildPhar.php
+    ¦       ¦   composer.json
+    ¦       ¦   infection.json.dist
+    ¦       ¦   license.md
+    ¦       ¦   phpstan.neon
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---.github
+    ¦       ¦   +---workflows
+    ¦       ¦           main.yaml
+    ¦       ¦           
+    ¦       +---classes
+    ¦       ¦   +---src
+    ¦       ¦       ¦   Builder.php
+    ¦       ¦       ¦   Div0Exception.php
+    ¦       ¦       ¦   Exception.php
+    ¦       ¦       ¦   Functions.php
+    ¦       ¦       ¦   Matrix.php
+    ¦       ¦       ¦   Operations.php
+    ¦       ¦       ¦   
+    ¦       ¦       +---Decomposition
+    ¦       ¦       ¦       Decomposition.php
+    ¦       ¦       ¦       LU.php
+    ¦       ¦       ¦       QR.php
+    ¦       ¦       ¦       
+    ¦       ¦       +---Operators
+    ¦       ¦               Addition.php
+    ¦       ¦               DirectSum.php
+    ¦       ¦               Division.php
+    ¦       ¦               Multiplication.php
+    ¦       ¦               Operator.php
+    ¦       ¦               Subtraction.php
+    ¦       ¦               
+    ¦       +---examples
+    ¦               test.php
+    ¦               
+    +---phpmailer
+    ¦   +---phpmailer
+    ¦       ¦   COMMITMENT
+    ¦       ¦   composer.json
+    ¦       ¦   get_oauth_token.php
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   SECURITY.md
+    ¦       ¦   SMTPUTF8.md
+    ¦       ¦   VERSION
+    ¦       ¦   
+    ¦       +---language
+    ¦       ¦       phpmailer.lang-af.php
+    ¦       ¦       phpmailer.lang-ar.php
+    ¦       ¦       phpmailer.lang-as.php
+    ¦       ¦       phpmailer.lang-az.php
+    ¦       ¦       phpmailer.lang-ba.php
+    ¦       ¦       phpmailer.lang-be.php
+    ¦       ¦       phpmailer.lang-bg.php
+    ¦       ¦       phpmailer.lang-bn.php
+    ¦       ¦       phpmailer.lang-ca.php
+    ¦       ¦       phpmailer.lang-cs.php
+    ¦       ¦       phpmailer.lang-da.php
+    ¦       ¦       phpmailer.lang-de.php
+    ¦       ¦       phpmailer.lang-el.php
+    ¦       ¦       phpmailer.lang-eo.php
+    ¦       ¦       phpmailer.lang-es.php
+    ¦       ¦       phpmailer.lang-et.php
+    ¦       ¦       phpmailer.lang-fa.php
+    ¦       ¦       phpmailer.lang-fi.php
+    ¦       ¦       phpmailer.lang-fo.php
+    ¦       ¦       phpmailer.lang-fr.php
+    ¦       ¦       phpmailer.lang-gl.php
+    ¦       ¦       phpmailer.lang-he.php
+    ¦       ¦       phpmailer.lang-hi.php
+    ¦       ¦       phpmailer.lang-hr.php
+    ¦       ¦       phpmailer.lang-hu.php
+    ¦       ¦       phpmailer.lang-hy.php
+    ¦       ¦       phpmailer.lang-id.php
+    ¦       ¦       phpmailer.lang-it.php
+    ¦       ¦       phpmailer.lang-ja.php
+    ¦       ¦       phpmailer.lang-ka.php
+    ¦       ¦       phpmailer.lang-ko.php
+    ¦       ¦       phpmailer.lang-ku.php
+    ¦       ¦       phpmailer.lang-lt.php
+    ¦       ¦       phpmailer.lang-lv.php
+    ¦       ¦       phpmailer.lang-mg.php
+    ¦       ¦       phpmailer.lang-mn.php
+    ¦       ¦       phpmailer.lang-ms.php
+    ¦       ¦       phpmailer.lang-nb.php
+    ¦       ¦       phpmailer.lang-nl.php
+    ¦       ¦       phpmailer.lang-pl.php
+    ¦       ¦       phpmailer.lang-pt.php
+    ¦       ¦       phpmailer.lang-pt_br.php
+    ¦       ¦       phpmailer.lang-ro.php
+    ¦       ¦       phpmailer.lang-ru.php
+    ¦       ¦       phpmailer.lang-si.php
+    ¦       ¦       phpmailer.lang-sk.php
+    ¦       ¦       phpmailer.lang-sl.php
+    ¦       ¦       phpmailer.lang-sr.php
+    ¦       ¦       phpmailer.lang-sr_latn.php
+    ¦       ¦       phpmailer.lang-sv.php
+    ¦       ¦       phpmailer.lang-tl.php
+    ¦       ¦       phpmailer.lang-tr.php
+    ¦       ¦       phpmailer.lang-uk.php
+    ¦       ¦       phpmailer.lang-ur.php
+    ¦       ¦       phpmailer.lang-vi.php
+    ¦       ¦       phpmailer.lang-zh.php
+    ¦       ¦       phpmailer.lang-zh_cn.php
+    ¦       ¦       
+    ¦       +---src
+    ¦               DSNConfigurator.php
+    ¦               Exception.php
+    ¦               OAuth.php
+    ¦               OAuthTokenProvider.php
+    ¦               PHPMailer.php
+    ¦               POP3.php
+    ¦               SMTP.php
+    ¦               
+    +---phpoffice
+    ¦   +---phpspreadsheet
+    ¦       ¦   CHANGELOG.md
+    ¦       ¦   composer.json
+    ¦       ¦   CONTRIBUTING.md
+    ¦       ¦   LICENSE
+    ¦       ¦   README.md
+    ¦       ¦   
+    ¦       +---src
+    ¦           +---PhpSpreadsheet
+    ¦               ¦   CellReferenceHelper.php
+    ¦               ¦   Comment.php
+    ¦               ¦   DefinedName.php
+    ¦               ¦   Exception.php
+    ¦               ¦   HashTable.php
+    ¦               ¦   IComparable.php
+    ¦               ¦   IOFactory.php
+    ¦               ¦   NamedFormula.php
+    ¦               ¦   NamedRange.php
+    ¦               ¦   ReferenceHelper.php
+    ¦               ¦   Settings.php
+    ¦               ¦   Spreadsheet.php
+    ¦               ¦   Theme.php
+    ¦               ¦   
+    ¦               +---Calculation
+    ¦               ¦   ¦   ArrayEnabled.php
+    ¦               ¦   ¦   BinaryComparison.php
+    ¦               ¦   ¦   Calculation.php
+    ¦               ¦   ¦   CalculationBase.php
+    ¦               ¦   ¦   CalculationLocale.php
+    ¦               ¦   ¦   Category.php
+    ¦               ¦   ¦   Exception.php
+    ¦               ¦   ¦   ExceptionHandler.php
+    ¦               ¦   ¦   FormulaParser.php
+    ¦               ¦   ¦   FormulaToken.php
+    ¦               ¦   ¦   FunctionArray.php
+    ¦               ¦   ¦   Functions.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Database
+    ¦               ¦   ¦       DatabaseAbstract.php
+    ¦               ¦   ¦       DAverage.php
+    ¦               ¦   ¦       DCount.php
+    ¦               ¦   ¦       DCountA.php
+    ¦               ¦   ¦       DGet.php
+    ¦               ¦   ¦       DMax.php
+    ¦               ¦   ¦       DMin.php
+    ¦               ¦   ¦       DProduct.php
+    ¦               ¦   ¦       DStDev.php
+    ¦               ¦   ¦       DStDevP.php
+    ¦               ¦   ¦       DSum.php
+    ¦               ¦   ¦       DVar.php
+    ¦               ¦   ¦       DVarP.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---DateTimeExcel
+    ¦               ¦   ¦       Constants.php
+    ¦               ¦   ¦       Current.php
+    ¦               ¦   ¦       Date.php
+    ¦               ¦   ¦       DateParts.php
+    ¦               ¦   ¦       DateValue.php
+    ¦               ¦   ¦       Days.php
+    ¦               ¦   ¦       Days360.php
+    ¦               ¦   ¦       Difference.php
+    ¦               ¦   ¦       Helpers.php
+    ¦               ¦   ¦       Month.php
+    ¦               ¦   ¦       NetworkDays.php
+    ¦               ¦   ¦       Time.php
+    ¦               ¦   ¦       TimeParts.php
+    ¦               ¦   ¦       TimeValue.php
+    ¦               ¦   ¦       Week.php
+    ¦               ¦   ¦       WorkDay.php
+    ¦               ¦   ¦       YearFrac.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Engine
+    ¦               ¦   ¦   ¦   ArrayArgumentHelper.php
+    ¦               ¦   ¦   ¦   ArrayArgumentProcessor.php
+    ¦               ¦   ¦   ¦   BranchPruner.php
+    ¦               ¦   ¦   ¦   CyclicReferenceStack.php
+    ¦               ¦   ¦   ¦   FormattedNumber.php
+    ¦               ¦   ¦   ¦   Logger.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Operands
+    ¦               ¦   ¦           Operand.php
+    ¦               ¦   ¦           StructuredReference.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Engineering
+    ¦               ¦   ¦       BesselI.php
+    ¦               ¦   ¦       BesselJ.php
+    ¦               ¦   ¦       BesselK.php
+    ¦               ¦   ¦       BesselY.php
+    ¦               ¦   ¦       BitWise.php
+    ¦               ¦   ¦       Compare.php
+    ¦               ¦   ¦       Complex.php
+    ¦               ¦   ¦       ComplexFunctions.php
+    ¦               ¦   ¦       ComplexOperations.php
+    ¦               ¦   ¦       Constants.php
+    ¦               ¦   ¦       ConvertBase.php
+    ¦               ¦   ¦       ConvertBinary.php
+    ¦               ¦   ¦       ConvertDecimal.php
+    ¦               ¦   ¦       ConvertHex.php
+    ¦               ¦   ¦       ConvertOctal.php
+    ¦               ¦   ¦       ConvertUOM.php
+    ¦               ¦   ¦       EngineeringValidations.php
+    ¦               ¦   ¦       Erf.php
+    ¦               ¦   ¦       ErfC.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Financial
+    ¦               ¦   ¦   ¦   Amortization.php
+    ¦               ¦   ¦   ¦   Constants.php
+    ¦               ¦   ¦   ¦   Coupons.php
+    ¦               ¦   ¦   ¦   Depreciation.php
+    ¦               ¦   ¦   ¦   Dollar.php
+    ¦               ¦   ¦   ¦   FinancialValidations.php
+    ¦               ¦   ¦   ¦   Helpers.php
+    ¦               ¦   ¦   ¦   InterestRate.php
+    ¦               ¦   ¦   ¦   TreasuryBill.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---CashFlow
+    ¦               ¦   ¦   ¦   ¦   CashFlowValidations.php
+    ¦               ¦   ¦   ¦   ¦   Single.php
+    ¦               ¦   ¦   ¦   ¦   
+    ¦               ¦   ¦   ¦   +---Constant
+    ¦               ¦   ¦   ¦   ¦   ¦   Periodic.php
+    ¦               ¦   ¦   ¦   ¦   ¦   
+    ¦               ¦   ¦   ¦   ¦   +---Periodic
+    ¦               ¦   ¦   ¦   ¦           Cumulative.php
+    ¦               ¦   ¦   ¦   ¦           Interest.php
+    ¦               ¦   ¦   ¦   ¦           InterestAndPrincipal.php
+    ¦               ¦   ¦   ¦   ¦           Payments.php
+    ¦               ¦   ¦   ¦   ¦           
+    ¦               ¦   ¦   ¦   +---Variable
+    ¦               ¦   ¦   ¦           NonPeriodic.php
+    ¦               ¦   ¦   ¦           Periodic.php
+    ¦               ¦   ¦   ¦           
+    ¦               ¦   ¦   +---Securities
+    ¦               ¦   ¦           AccruedInterest.php
+    ¦               ¦   ¦           Price.php
+    ¦               ¦   ¦           Rates.php
+    ¦               ¦   ¦           SecurityValidations.php
+    ¦               ¦   ¦           Yields.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Information
+    ¦               ¦   ¦       ErrorValue.php
+    ¦               ¦   ¦       ExcelError.php
+    ¦               ¦   ¦       Value.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Internal
+    ¦               ¦   ¦       ExcelArrayPseudoFunctions.php
+    ¦               ¦   ¦       MakeMatrix.php
+    ¦               ¦   ¦       WildcardMatch.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---locale
+    ¦               ¦   ¦   ¦   Translations.xlsx
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---bg
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---cs
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---da
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---de
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---en
+    ¦               ¦   ¦   ¦   +---uk
+    ¦               ¦   ¦   ¦           config
+    ¦               ¦   ¦   ¦           
+    ¦               ¦   ¦   +---es
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---fi
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---fr
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---hu
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---it
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---nb
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---nl
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---pl
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---pt
+    ¦               ¦   ¦   ¦   ¦   config
+    ¦               ¦   ¦   ¦   ¦   functions
+    ¦               ¦   ¦   ¦   ¦   
+    ¦               ¦   ¦   ¦   +---br
+    ¦               ¦   ¦   ¦           config
+    ¦               ¦   ¦   ¦           functions
+    ¦               ¦   ¦   ¦           
+    ¦               ¦   ¦   +---ru
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---sv
+    ¦               ¦   ¦   ¦       config
+    ¦               ¦   ¦   ¦       functions
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---tr
+    ¦               ¦   ¦           config
+    ¦               ¦   ¦           functions
+    ¦               ¦   ¦           
+    ¦               ¦   +---Logical
+    ¦               ¦   ¦       Boolean.php
+    ¦               ¦   ¦       Conditional.php
+    ¦               ¦   ¦       Operations.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---LookupRef
+    ¦               ¦   ¦       Address.php
+    ¦               ¦   ¦       ChooseRowsEtc.php
+    ¦               ¦   ¦       ExcelMatch.php
+    ¦               ¦   ¦       Filter.php
+    ¦               ¦   ¦       Formula.php
+    ¦               ¦   ¦       Helpers.php
+    ¦               ¦   ¦       HLookup.php
+    ¦               ¦   ¦       Hyperlink.php
+    ¦               ¦   ¦       Indirect.php
+    ¦               ¦   ¦       Lookup.php
+    ¦               ¦   ¦       LookupBase.php
+    ¦               ¦   ¦       LookupRefValidations.php
+    ¦               ¦   ¦       Matrix.php
+    ¦               ¦   ¦       Offset.php
+    ¦               ¦   ¦       RowColumnInformation.php
+    ¦               ¦   ¦       Selection.php
+    ¦               ¦   ¦       Sort.php
+    ¦               ¦   ¦       Unique.php
+    ¦               ¦   ¦       VLookup.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---MathTrig
+    ¦               ¦   ¦   ¦   Absolute.php
+    ¦               ¦   ¦   ¦   Angle.php
+    ¦               ¦   ¦   ¦   Arabic.php
+    ¦               ¦   ¦   ¦   Base.php
+    ¦               ¦   ¦   ¦   Ceiling.php
+    ¦               ¦   ¦   ¦   Combinations.php
+    ¦               ¦   ¦   ¦   Exp.php
+    ¦               ¦   ¦   ¦   Factorial.php
+    ¦               ¦   ¦   ¦   Floor.php
+    ¦               ¦   ¦   ¦   Gcd.php
+    ¦               ¦   ¦   ¦   Helpers.php
+    ¦               ¦   ¦   ¦   IntClass.php
+    ¦               ¦   ¦   ¦   Lcm.php
+    ¦               ¦   ¦   ¦   Logarithms.php
+    ¦               ¦   ¦   ¦   MatrixFunctions.php
+    ¦               ¦   ¦   ¦   Operations.php
+    ¦               ¦   ¦   ¦   Random.php
+    ¦               ¦   ¦   ¦   Roman.php
+    ¦               ¦   ¦   ¦   Round.php
+    ¦               ¦   ¦   ¦   SeriesSum.php
+    ¦               ¦   ¦   ¦   Sign.php
+    ¦               ¦   ¦   ¦   Sqrt.php
+    ¦               ¦   ¦   ¦   Subtotal.php
+    ¦               ¦   ¦   ¦   Sum.php
+    ¦               ¦   ¦   ¦   SumSquares.php
+    ¦               ¦   ¦   ¦   Trunc.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Trig
+    ¦               ¦   ¦           Cosecant.php
+    ¦               ¦   ¦           Cosine.php
+    ¦               ¦   ¦           Cotangent.php
+    ¦               ¦   ¦           Secant.php
+    ¦               ¦   ¦           Sine.php
+    ¦               ¦   ¦           Tangent.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Statistical
+    ¦               ¦   ¦   ¦   AggregateBase.php
+    ¦               ¦   ¦   ¦   Averages.php
+    ¦               ¦   ¦   ¦   Conditional.php
+    ¦               ¦   ¦   ¦   Confidence.php
+    ¦               ¦   ¦   ¦   Counts.php
+    ¦               ¦   ¦   ¦   Deviations.php
+    ¦               ¦   ¦   ¦   Maximum.php
+    ¦               ¦   ¦   ¦   MaxMinBase.php
+    ¦               ¦   ¦   ¦   Minimum.php
+    ¦               ¦   ¦   ¦   Percentiles.php
+    ¦               ¦   ¦   ¦   Permutations.php
+    ¦               ¦   ¦   ¦   Size.php
+    ¦               ¦   ¦   ¦   StandardDeviations.php
+    ¦               ¦   ¦   ¦   Standardize.php
+    ¦               ¦   ¦   ¦   StatisticalValidations.php
+    ¦               ¦   ¦   ¦   Trends.php
+    ¦               ¦   ¦   ¦   VarianceBase.php
+    ¦               ¦   ¦   ¦   Variances.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Averages
+    ¦               ¦   ¦   ¦       Mean.php
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---Distributions
+    ¦               ¦   ¦           Beta.php
+    ¦               ¦   ¦           Binomial.php
+    ¦               ¦   ¦           ChiSquared.php
+    ¦               ¦   ¦           DistributionValidations.php
+    ¦               ¦   ¦           Exponential.php
+    ¦               ¦   ¦           F.php
+    ¦               ¦   ¦           Fisher.php
+    ¦               ¦   ¦           Gamma.php
+    ¦               ¦   ¦           GammaBase.php
+    ¦               ¦   ¦           HyperGeometric.php
+    ¦               ¦   ¦           LogNormal.php
+    ¦               ¦   ¦           NewtonRaphson.php
+    ¦               ¦   ¦           Normal.php
+    ¦               ¦   ¦           Poisson.php
+    ¦               ¦   ¦           StandardNormal.php
+    ¦               ¦   ¦           StudentT.php
+    ¦               ¦   ¦           Weibull.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---TextData
+    ¦               ¦   ¦       CaseConvert.php
+    ¦               ¦   ¦       CharacterConvert.php
+    ¦               ¦   ¦       Concatenate.php
+    ¦               ¦   ¦       Extract.php
+    ¦               ¦   ¦       Format.php
+    ¦               ¦   ¦       Helpers.php
+    ¦               ¦   ¦       Replace.php
+    ¦               ¦   ¦       Search.php
+    ¦               ¦   ¦       Text.php
+    ¦               ¦   ¦       Trim.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Token
+    ¦               ¦   ¦       Stack.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Web
+    ¦               ¦           Service.php
+    ¦               ¦           
+    ¦               +---Cell
+    ¦               ¦       AddressHelper.php
+    ¦               ¦       AddressRange.php
+    ¦               ¦       AdvancedValueBinder.php
+    ¦               ¦       Cell.php
+    ¦               ¦       CellAddress.php
+    ¦               ¦       CellRange.php
+    ¦               ¦       ColumnRange.php
+    ¦               ¦       Coordinate.php
+    ¦               ¦       DataType.php
+    ¦               ¦       DataValidation.php
+    ¦               ¦       DataValidator.php
+    ¦               ¦       DefaultValueBinder.php
+    ¦               ¦       Hyperlink.php
+    ¦               ¦       IgnoredErrors.php
+    ¦               ¦       IValueBinder.php
+    ¦               ¦       RowRange.php
+    ¦               ¦       StringValueBinder.php
+    ¦               ¦       
+    ¦               +---Chart
+    ¦               ¦   ¦   Axis.php
+    ¦               ¦   ¦   AxisText.php
+    ¦               ¦   ¦   Chart.php
+    ¦               ¦   ¦   ChartColor.php
+    ¦               ¦   ¦   DataSeries.php
+    ¦               ¦   ¦   DataSeriesValues.php
+    ¦               ¦   ¦   Exception.php
+    ¦               ¦   ¦   GridLines.php
+    ¦               ¦   ¦   Layout.php
+    ¦               ¦   ¦   Legend.php
+    ¦               ¦   ¦   PlotArea.php
+    ¦               ¦   ¦   Properties.php
+    ¦               ¦   ¦   Title.php
+    ¦               ¦   ¦   TrendLine.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Renderer
+    ¦               ¦           IRenderer.php
+    ¦               ¦           JpGraph.php
+    ¦               ¦           JpGraphRendererBase.php
+    ¦               ¦           MtJpGraphRenderer.php
+    ¦               ¦           PHP Charting Libraries.txt
+    ¦               ¦           
+    ¦               +---Collection
+    ¦               ¦   ¦   Cells.php
+    ¦               ¦   ¦   CellsFactory.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Memory
+    ¦               ¦           SimpleCache1.php
+    ¦               ¦           SimpleCache3.php
+    ¦               ¦           
+    ¦               +---Document
+    ¦               ¦       Properties.php
+    ¦               ¦       Security.php
+    ¦               ¦       
+    ¦               +---Helper
+    ¦               ¦       Dimension.php
+    ¦               ¦       Downloader.php
+    ¦               ¦       Handler.php
+    ¦               ¦       Html.php
+    ¦               ¦       Sample.php
+    ¦               ¦       Size.php
+    ¦               ¦       TextGrid.php
+    ¦               ¦       
+    ¦               +---Reader
+    ¦               ¦   ¦   BaseReader.php
+    ¦               ¦   ¦   Csv.php
+    ¦               ¦   ¦   DefaultReadFilter.php
+    ¦               ¦   ¦   Exception.php
+    ¦               ¦   ¦   Gnumeric.php
+    ¦               ¦   ¦   Html.php
+    ¦               ¦   ¦   IReader.php
+    ¦               ¦   ¦   IReadFilter.php
+    ¦               ¦   ¦   Ods.php
+    ¦               ¦   ¦   Slk.php
+    ¦               ¦   ¦   Xls.php
+    ¦               ¦   ¦   XlsBase.php
+    ¦               ¦   ¦   Xlsx.php
+    ¦               ¦   ¦   Xml.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Csv
+    ¦               ¦   ¦       Delimiter.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Gnumeric
+    ¦               ¦   ¦       PageSetup.php
+    ¦               ¦   ¦       Properties.php
+    ¦               ¦   ¦       Styles.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Ods
+    ¦               ¦   ¦       AutoFilter.php
+    ¦               ¦   ¦       BaseLoader.php
+    ¦               ¦   ¦       DefinedNames.php
+    ¦               ¦   ¦       FormulaTranslator.php
+    ¦               ¦   ¦       PageSettings.php
+    ¦               ¦   ¦       Properties.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Security
+    ¦               ¦   ¦       XmlScanner.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Xls
+    ¦               ¦   ¦   ¦   Biff5.php
+    ¦               ¦   ¦   ¦   Biff8.php
+    ¦               ¦   ¦   ¦   Color.php
+    ¦               ¦   ¦   ¦   ConditionalFormatting.php
+    ¦               ¦   ¦   ¦   DataValidationHelper.php
+    ¦               ¦   ¦   ¦   ErrorCode.php
+    ¦               ¦   ¦   ¦   Escher.php
+    ¦               ¦   ¦   ¦   ListFunctions.php
+    ¦               ¦   ¦   ¦   LoadSpreadsheet.php
+    ¦               ¦   ¦   ¦   Mappings.php
+    ¦               ¦   ¦   ¦   MD5.php
+    ¦               ¦   ¦   ¦   RC4.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Color
+    ¦               ¦   ¦   ¦       BIFF5.php
+    ¦               ¦   ¦   ¦       BIFF8.php
+    ¦               ¦   ¦   ¦       BuiltIn.php
+    ¦               ¦   ¦   ¦       
+    ¦               ¦   ¦   +---Style
+    ¦               ¦   ¦           Border.php
+    ¦               ¦   ¦           CellAlignment.php
+    ¦               ¦   ¦           CellFont.php
+    ¦               ¦   ¦           FillPattern.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Xlsx
+    ¦               ¦   ¦       AutoFilter.php
+    ¦               ¦   ¦       BaseParserClass.php
+    ¦               ¦   ¦       Chart.php
+    ¦               ¦   ¦       ColumnAndRowAttributes.php
+    ¦               ¦   ¦       ConditionalStyles.php
+    ¦               ¦   ¦       DataValidations.php
+    ¦               ¦   ¦       Hyperlinks.php
+    ¦               ¦   ¦       Namespaces.php
+    ¦               ¦   ¦       PageSetup.php
+    ¦               ¦   ¦       Properties.php
+    ¦               ¦   ¦       SharedFormula.php
+    ¦               ¦   ¦       SheetViewOptions.php
+    ¦               ¦   ¦       SheetViews.php
+    ¦               ¦   ¦       Styles.php
+    ¦               ¦   ¦       TableReader.php
+    ¦               ¦   ¦       Theme.php
+    ¦               ¦   ¦       WorkbookView.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Xml
+    ¦               ¦       ¦   DataValidations.php
+    ¦               ¦       ¦   PageSettings.php
+    ¦               ¦       ¦   Properties.php
+    ¦               ¦       ¦   Style.php
+    ¦               ¦       ¦   
+    ¦               ¦       +---Style
+    ¦               ¦               Alignment.php
+    ¦               ¦               Border.php
+    ¦               ¦               Fill.php
+    ¦               ¦               Font.php
+    ¦               ¦               NumberFormat.php
+    ¦               ¦               StyleBase.php
+    ¦               ¦               
+    ¦               +---RichText
+    ¦               ¦       ITextElement.php
+    ¦               ¦       RichText.php
+    ¦               ¦       Run.php
+    ¦               ¦       TextElement.php
+    ¦               ¦       
+    ¦               +---Shared
+    ¦               ¦   ¦   CodePage.php
+    ¦               ¦   ¦   Date.php
+    ¦               ¦   ¦   Drawing.php
+    ¦               ¦   ¦   Escher.php
+    ¦               ¦   ¦   File.php
+    ¦               ¦   ¦   Font.php
+    ¦               ¦   ¦   IntOrFloat.php
+    ¦               ¦   ¦   OLE.php
+    ¦               ¦   ¦   OLERead.php
+    ¦               ¦   ¦   PasswordHasher.php
+    ¦               ¦   ¦   StringHelper.php
+    ¦               ¦   ¦   TimeZone.php
+    ¦               ¦   ¦   Xls.php
+    ¦               ¦   ¦   XMLWriter.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---Escher
+    ¦               ¦   ¦   ¦   DgContainer.php
+    ¦               ¦   ¦   ¦   DggContainer.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---DgContainer
+    ¦               ¦   ¦   ¦   ¦   SpgrContainer.php
+    ¦               ¦   ¦   ¦   ¦   
+    ¦               ¦   ¦   ¦   +---SpgrContainer
+    ¦               ¦   ¦   ¦           SpContainer.php
+    ¦               ¦   ¦   ¦           
+    ¦               ¦   ¦   +---DggContainer
+    ¦               ¦   ¦       ¦   BstoreContainer.php
+    ¦               ¦   ¦       ¦   
+    ¦               ¦   ¦       +---BstoreContainer
+    ¦               ¦   ¦           ¦   BSE.php
+    ¦               ¦   ¦           ¦   
+    ¦               ¦   ¦           +---BSE
+    ¦               ¦   ¦                   Blip.php
+    ¦               ¦   ¦                   
+    ¦               ¦   +---OLE
+    ¦               ¦   ¦   ¦   ChainedBlockStream.php
+    ¦               ¦   ¦   ¦   PPS.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---PPS
+    ¦               ¦   ¦           File.php
+    ¦               ¦   ¦           Root.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Trend
+    ¦               ¦           BestFit.php
+    ¦               ¦           ExponentialBestFit.php
+    ¦               ¦           LinearBestFit.php
+    ¦               ¦           LogarithmicBestFit.php
+    ¦               ¦           PolynomialBestFit.php
+    ¦               ¦           PowerBestFit.php
+    ¦               ¦           Trend.php
+    ¦               ¦           
+    ¦               +---Style
+    ¦               ¦   ¦   Alignment.php
+    ¦               ¦   ¦   Border.php
+    ¦               ¦   ¦   Borders.php
+    ¦               ¦   ¦   Color.php
+    ¦               ¦   ¦   Conditional.php
+    ¦               ¦   ¦   Fill.php
+    ¦               ¦   ¦   Font.php
+    ¦               ¦   ¦   NumberFormat.php
+    ¦               ¦   ¦   Protection.php
+    ¦               ¦   ¦   RgbTint.php
+    ¦               ¦   ¦   Style.php
+    ¦               ¦   ¦   Supervisor.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---ConditionalFormatting
+    ¦               ¦   ¦   ¦   CellMatcher.php
+    ¦               ¦   ¦   ¦   CellStyleAssessor.php
+    ¦               ¦   ¦   ¦   ConditionalColorScale.php
+    ¦               ¦   ¦   ¦   ConditionalDataBar.php
+    ¦               ¦   ¦   ¦   ConditionalDataBarExtension.php
+    ¦               ¦   ¦   ¦   ConditionalFormattingRuleExtension.php
+    ¦               ¦   ¦   ¦   ConditionalFormatValueObject.php
+    ¦               ¦   ¦   ¦   StyleMerger.php
+    ¦               ¦   ¦   ¦   Wizard.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Wizard
+    ¦               ¦   ¦           Blanks.php
+    ¦               ¦   ¦           CellValue.php
+    ¦               ¦   ¦           DateValue.php
+    ¦               ¦   ¦           Duplicates.php
+    ¦               ¦   ¦           Errors.php
+    ¦               ¦   ¦           Expression.php
+    ¦               ¦   ¦           TextValue.php
+    ¦               ¦   ¦           WizardAbstract.php
+    ¦               ¦   ¦           WizardInterface.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---NumberFormat
+    ¦               ¦       ¦   BaseFormatter.php
+    ¦               ¦       ¦   DateFormatter.php
+    ¦               ¦       ¦   Formatter.php
+    ¦               ¦       ¦   FractionFormatter.php
+    ¦               ¦       ¦   NumberFormatter.php
+    ¦               ¦       ¦   PercentageFormatter.php
+    ¦               ¦       ¦   
+    ¦               ¦       +---Wizard
+    ¦               ¦               Accounting.php
+    ¦               ¦               Currency.php
+    ¦               ¦               CurrencyBase.php
+    ¦               ¦               CurrencyNegative.php
+    ¦               ¦               Date.php
+    ¦               ¦               DateTime.php
+    ¦               ¦               DateTimeWizard.php
+    ¦               ¦               Duration.php
+    ¦               ¦               Locale.php
+    ¦               ¦               Number.php
+    ¦               ¦               NumberBase.php
+    ¦               ¦               Percentage.php
+    ¦               ¦               Scientific.php
+    ¦               ¦               Time.php
+    ¦               ¦               Wizard.php
+    ¦               ¦               
+    ¦               +---Worksheet
+    ¦               ¦   ¦   AutoFilter.php
+    ¦               ¦   ¦   AutoFit.php
+    ¦               ¦   ¦   BaseDrawing.php
+    ¦               ¦   ¦   CellIterator.php
+    ¦               ¦   ¦   Column.php
+    ¦               ¦   ¦   ColumnCellIterator.php
+    ¦               ¦   ¦   ColumnDimension.php
+    ¦               ¦   ¦   ColumnIterator.php
+    ¦               ¦   ¦   Dimension.php
+    ¦               ¦   ¦   Drawing.php
+    ¦               ¦   ¦   HeaderFooter.php
+    ¦               ¦   ¦   HeaderFooterDrawing.php
+    ¦               ¦   ¦   Iterator.php
+    ¦               ¦   ¦   MemoryDrawing.php
+    ¦               ¦   ¦   PageBreak.php
+    ¦               ¦   ¦   PageMargins.php
+    ¦               ¦   ¦   PageSetup.php
+    ¦               ¦   ¦   Pane.php
+    ¦               ¦   ¦   ProtectedRange.php
+    ¦               ¦   ¦   Protection.php
+    ¦               ¦   ¦   Row.php
+    ¦               ¦   ¦   RowCellIterator.php
+    ¦               ¦   ¦   RowDimension.php
+    ¦               ¦   ¦   RowIterator.php
+    ¦               ¦   ¦   SheetView.php
+    ¦               ¦   ¦   Table.php
+    ¦               ¦   ¦   Validations.php
+    ¦               ¦   ¦   Worksheet.php
+    ¦               ¦   ¦   
+    ¦               ¦   +---AutoFilter
+    ¦               ¦   ¦   ¦   Column.php
+    ¦               ¦   ¦   ¦   
+    ¦               ¦   ¦   +---Column
+    ¦               ¦   ¦           Rule.php
+    ¦               ¦   ¦           
+    ¦               ¦   +---Drawing
+    ¦               ¦   ¦       Shadow.php
+    ¦               ¦   ¦       
+    ¦               ¦   +---Table
+    ¦               ¦           Column.php
+    ¦               ¦           TableDxfsStyle.php
+    ¦               ¦           TableStyle.php
+    ¦               ¦           
+    ¦               +---Writer
+    ¦                   ¦   BaseWriter.php
+    ¦                   ¦   Csv.php
+    ¦                   ¦   Exception.php
+    ¦                   ¦   Html.php
+    ¦                   ¦   IWriter.php
+    ¦                   ¦   Ods.php
+    ¦                   ¦   Pdf.php
+    ¦                   ¦   Xls.php
+    ¦                   ¦   Xlsx.php
+    ¦                   ¦   ZipStream0.php
+    ¦                   ¦   ZipStream2.php
+    ¦                   ¦   ZipStream3.php
+    ¦                   ¦   
+    ¦                   +---Ods
+    ¦                   ¦   ¦   AutoFilters.php
+    ¦                   ¦   ¦   Content.php
+    ¦                   ¦   ¦   Formula.php
+    ¦                   ¦   ¦   Meta.php
+    ¦                   ¦   ¦   MetaInf.php
+    ¦                   ¦   ¦   Mimetype.php
+    ¦                   ¦   ¦   NamedExpressions.php
+    ¦                   ¦   ¦   Settings.php
+    ¦                   ¦   ¦   Styles.php
+    ¦                   ¦   ¦   Thumbnails.php
+    ¦                   ¦   ¦   WriterPart.php
+    ¦                   ¦   ¦   
+    ¦                   ¦   +---Cell
+    ¦                   ¦           Comment.php
+    ¦                   ¦           Style.php
+    ¦                   ¦           
+    ¦                   +---Pdf
+    ¦                   ¦       Dompdf.php
+    ¦                   ¦       Mpdf.php
+    ¦                   ¦       Tcpdf.php
+    ¦                   ¦       
+    ¦                   +---Xls
+    ¦                   ¦   ¦   BIFFwriter.php
+    ¦                   ¦   ¦   CellDataValidation.php
+    ¦                   ¦   ¦   ConditionalHelper.php
+    ¦                   ¦   ¦   ErrorCode.php
+    ¦                   ¦   ¦   Escher.php
+    ¦                   ¦   ¦   Font.php
+    ¦                   ¦   ¦   Parser.php
+    ¦                   ¦   ¦   Workbook.php
+    ¦                   ¦   ¦   Worksheet.php
+    ¦                   ¦   ¦   Xf.php
+    ¦                   ¦   ¦   
+    ¦                   ¦   +---Style
+    ¦                   ¦           CellAlignment.php
+    ¦                   ¦           CellBorder.php
+    ¦                   ¦           CellFill.php
+    ¦                   ¦           
+    ¦                   +---Xlsx
+    ¦                           AutoFilter.php
+    ¦                           Chart.php
+    ¦                           Comments.php
+    ¦                           ContentTypes.php
+    ¦                           DefinedNames.php
+    ¦                           DocProps.php
+    ¦                           Drawing.php
+    ¦                           FunctionPrefix.php
+    ¦                           Metadata.php
+    ¦                           Rels.php
+    ¦                           RelsRibbon.php
+    ¦                           RelsVBA.php
+    ¦                           StringTable.php
+    ¦                           Style.php
+    ¦                           Table.php
+    ¦                           Theme.php
+    ¦                           Workbook.php
+    ¦                           Worksheet.php
+    ¦                           WriterPart.php
+    ¦                           
+    +---psr
+        +---http-client
+        ¦   ¦   CHANGELOG.md
+        ¦   ¦   composer.json
+        ¦   ¦   LICENSE
+        ¦   ¦   README.md
+        ¦   ¦   
+        ¦   +---src
+        ¦           ClientExceptionInterface.php
+        ¦           ClientInterface.php
+        ¦           NetworkExceptionInterface.php
+        ¦           RequestExceptionInterface.php
+        ¦           
+        +---http-factory
+        ¦   ¦   composer.json
+        ¦   ¦   LICENSE
+        ¦   ¦   README.md
+        ¦   ¦   
+        ¦   +---src
+        ¦           RequestFactoryInterface.php
+        ¦           ResponseFactoryInterface.php
+        ¦           ServerRequestFactoryInterface.php
+        ¦           StreamFactoryInterface.php
+        ¦           UploadedFileFactoryInterface.php
+        ¦           UriFactoryInterface.php
+        ¦           
+        +---http-message
+        ¦   ¦   CHANGELOG.md
+        ¦   ¦   composer.json
+        ¦   ¦   LICENSE
+        ¦   ¦   README.md
+        ¦   ¦   
+        ¦   +---docs
+        ¦   ¦       PSR7-Interfaces.md
+        ¦   ¦       PSR7-Usage.md
+        ¦   ¦       
+        ¦   +---src
+        ¦           MessageInterface.php
+        ¦           RequestInterface.php
+        ¦           ResponseInterface.php
+        ¦           ServerRequestInterface.php
+        ¦           StreamInterface.php
+        ¦           UploadedFileInterface.php
+        ¦           UriInterface.php
+        ¦           
+        +---simple-cache
+            ¦   .editorconfig
+            ¦   composer.json
+            ¦   LICENSE.md
+            ¦   README.md
+            ¦   
+            +---src
+                    CacheException.php
+                    CacheInterface.php
+                    InvalidArgumentException.php
+                    

@@ -1,0 +1,21 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+# Installed dependencies and runtime output
+vendor/
+*.log
+
+# IDE and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local database exports and temporary files
+*.sql.gz
+*.tmp
+*.bak
+
+# Backups created by local tooling
+.codex-backups/

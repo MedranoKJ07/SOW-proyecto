@@ -1,0 +1,38 @@
+# Configuration local y credenciales
+.env
+.env.*
+!.env.example
+
+# Dependencias instaladas; se reconstruyen con Composer
+vendor/
+**/vendor/
+node_modules/
+
+# Artefactos generados
+dist/
+build/
+coverage/
+*.log
+*.tmp
+*.sql.gz
+*.bak
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Respaldos locales de herramientas
+.codex-backups/
+**/.codex-backups/
+
+# SQL históricos ubicados fuera de la fuente instalable
+/articulos.sql
+/cliente.sql
+/proveedores.sql
+/usuarios.sql
+
+# Salidas de runtime conocidas
+storage/logs/*
+bootstrap/cache/*
